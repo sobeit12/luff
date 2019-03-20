@@ -1,0 +1,42 @@
+body {
+  background-color: #1e272e;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+body {
+  color: white;
+}
+
+.clicked {
+  color: #ff5e57;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  animation: fadeIn .5s linear;
+}
